@@ -1,0 +1,28 @@
+.TodoForm{
+    margin-top: 1em;
+    border-top: 1px solid #fafafa
+}
+
+.TodoForm input {
+    background-color: tomato;
+    border: 0.5px solid black;
+    margin-top: 2em;
+}
+
+.TodoForm i{
+    margin-left: 2em;
+}
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+  }

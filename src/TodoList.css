@@ -1,0 +1,33 @@
+.TodoList{
+    background-color: tomato;
+    width: 20em;
+    min-height: 15em;
+    height: auto;
+    display: flex;;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 0 2em 0;
+    box-shadow: 10px 8px 5px #555;                  
+}
+
+.TodoList h1{
+    color:white;
+    border-bottom: 1px solid #fafafa;
+    margin-bottom: 0.5em;
+}
+
+.TodoList-span{
+    font-size: 14px;
+    color:black;
+    font-weight: normal;
+    display: flex;;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+
+}
+
+
+
